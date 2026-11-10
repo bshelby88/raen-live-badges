@@ -1,0 +1,76 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>RAEN x402 Live Badges — embeddable status + price badges for 11 paid APIs on Base</title>
+<meta name="description" content="Embeddable SVG badges showing live status and x402 USDC price for 11 RAEN paid APIs on Base. Free to embed for agents, directories and dashboards.">
+<style>body{font-family:system-ui,sans-serif;background:#0d1117;color:#e6edf3;max-width:1100px;margin:0 auto;padding:2rem}a{color:#58a6ff}.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:1rem}.card{background:#161b22;border:1px solid #30363d;border-radius:8px;padding:1rem}code{display:block;background:#0d1117;padding:.5rem;margin-top:.5rem;font-size:.72rem;overflow-x:auto;border:1px solid #30363d;border-radius:4px}.ok{color:#3fb950}.down{color:#f85149}h1{font-size:1.6rem}</style></head><body>
+<h1>RAEN x402 Live Badges</h1>
+<p>Every badge is a plain static SVG — no JS, no tracking, no key. Drop one into your agent's README, dashboard, or directory to show a paid API's real per-call USDC price on Base and its live status. Pay-per-call via <a href="https://www.x402.org">x402</a> (HTTP 402), settle in USDC on Base mainnet.</p>
+<p><b>Integrate in one request:</b> send an unauthenticated POST &rarr; receive a 402 challenge &rarr; sign with your wallet &rarr; resend. Recipes in the <a href="https://github.com/bshelby88/x402-cookbook">x402 cookbook</a> &middot; MCP gateway: <code>raen-mcp-gateway.fly.dev/mcp</code> &middot; <a href="https://bshelby88.github.io/raen-first-call-free/">free first call</a> on royal-ruby.</p>
+<div class="grid"><div class="card"><img src="badges/royal-ruby.svg" alt="royal-ruby badge"/>
+<p><b>Law citation lookup API</b></p>
+<p class="price">$0.05 / call &middot; Base USDC &middot; <span class="ok">LIVE</span></p>
+<p><a href="https://royal-ruby-x402.fly.dev/.well-known/x402.json">x402 manifest</a> &middot; <a href="https://royal-ruby-x402.fly.dev/health">health</a></p>
+<code>&lt;img src="https://bshelby88.github.io/raen-live-badges/badges/royal-ruby.svg" alt="RAEN royal-ruby — $0.05/call on Base"&gt;</code>
+</div>
+<div class="card"><img src="badges/tradingagents.svg" alt="tradingagents badge"/>
+<p><b>Arbitrage analysis API</b></p>
+<p class="price">$0.05 / call &middot; Base USDC &middot; <span class="ok">LIVE</span></p>
+<p><a href="https://tradingagents-x402.fly.dev/.well-known/x402.json">x402 manifest</a> &middot; <a href="https://tradingagents-x402.fly.dev/health">health</a></p>
+<code>&lt;img src="https://bshelby88.github.io/raen-live-badges/badges/tradingagents.svg" alt="RAEN tradingagents — $0.05/call on Base"&gt;</code>
+</div>
+<div class="card"><img src="badges/dispute-forge.svg" alt="dispute-forge badge"/>
+<p><b>FCRA dispute letter generator</b></p>
+<p class="price">$0.75 / call &middot; Base USDC &middot; <span class="ok">LIVE</span></p>
+<p><a href="https://dispute-forge-x402.fly.dev/.well-known/x402.json">x402 manifest</a> &middot; <a href="https://dispute-forge-x402.fly.dev/health">health</a></p>
+<code>&lt;img src="https://bshelby88.github.io/raen-live-badges/badges/dispute-forge.svg" alt="RAEN dispute-forge — $0.75/call on Base"&gt;</code>
+</div>
+<div class="card"><img src="badges/nanobanana.svg" alt="nanobanana badge"/>
+<p><b>Gemini image generation</b></p>
+<p class="price">$0.01 / call &middot; Base USDC &middot; <span class="ok">LIVE</span></p>
+<p><a href="https://nanobanana-x402.fly.dev/.well-known/x402.json">x402 manifest</a> &middot; <a href="https://nanobanana-x402.fly.dev/health">health</a></p>
+<code>&lt;img src="https://bshelby88.github.io/raen-live-badges/badges/nanobanana.svg" alt="RAEN nanobanana — $0.01/call on Base"&gt;</code>
+</div>
+<div class="card"><img src="badges/nft-alpha.svg" alt="nft-alpha badge"/>
+<p><b>OpenSea market signals</b></p>
+<p class="price">$0.02 / call &middot; Base USDC &middot; <span class="ok">LIVE</span></p>
+<p><a href="https://nft-alpha-x402.fly.dev/.well-known/x402.json">x402 manifest</a> &middot; <a href="https://nft-alpha-x402.fly.dev/health">health</a></p>
+<code>&lt;img src="https://bshelby88.github.io/raen-live-badges/badges/nft-alpha.svg" alt="RAEN nft-alpha — $0.02/call on Base"&gt;</code>
+</div>
+<div class="card"><img src="badges/escrow.svg" alt="escrow badge"/>
+<p><b>Agent-to-agent USDC escrow</b></p>
+<p class="price">$0.05 / call &middot; Base USDC &middot; <span class="ok">LIVE</span></p>
+<p><a href="https://escrow-x402.fly.dev/.well-known/x402.json">x402 manifest</a> &middot; <a href="https://escrow-x402.fly.dev/health">health</a></p>
+<code>&lt;img src="https://bshelby88.github.io/raen-live-badges/badges/escrow.svg" alt="RAEN escrow — $0.05/call on Base"&gt;</code>
+</div>
+<div class="card"><img src="badges/vault-pro.svg" alt="vault-pro badge"/>
+<p><b>Obsidian scaffolding API</b></p>
+<p class="price">$0.05 / call &middot; Base USDC &middot; <span class="ok">LIVE</span></p>
+<p><a href="https://vault-pro-x402.fly.dev/.well-known/x402.json">x402 manifest</a> &middot; <a href="https://vault-pro-x402.fly.dev/health">health</a></p>
+<code>&lt;img src="https://bshelby88.github.io/raen-live-badges/badges/vault-pro.svg" alt="RAEN vault-pro — $0.05/call on Base"&gt;</code>
+</div>
+<div class="card"><img src="badges/dispatch.svg" alt="dispatch badge"/>
+<p><b>Intent routing meta-API</b></p>
+<p class="price">$0.50 / call &middot; Base USDC &middot; <span class="ok">LIVE</span></p>
+<p><a href="https://dispatch-x402.fly.dev/.well-known/x402.json">x402 manifest</a> &middot; <a href="https://dispatch-x402.fly.dev/health">health</a></p>
+<code>&lt;img src="https://bshelby88.github.io/raen-live-badges/badges/dispatch.svg" alt="RAEN dispatch — $0.50/call on Base"&gt;</code>
+</div>
+<div class="card"><img src="badges/contract-eye.svg" alt="contract-eye badge"/>
+<p><b>Contract risk analysis</b></p>
+<p class="price">$0.05 / call &middot; Base USDC &middot; <span class="ok">LIVE</span></p>
+<p><a href="https://contract-eye-x402.fly.dev/.well-known/x402.json">x402 manifest</a> &middot; <a href="https://contract-eye-x402.fly.dev/health">health</a></p>
+<code>&lt;img src="https://bshelby88.github.io/raen-live-badges/badges/contract-eye.svg" alt="RAEN contract-eye — $0.05/call on Base"&gt;</code>
+</div>
+<div class="card"><img src="badges/briefsnap.svg" alt="briefsnap badge"/>
+<p><b>AI document summaries</b></p>
+<p class="price">$1.00 / call &middot; Base USDC &middot; <span class="ok">LIVE</span></p>
+<p><a href="https://briefsnap-x402.fly.dev/.well-known/x402.json">x402 manifest</a> &middot; <a href="https://briefsnap-x402.fly.dev/health">health</a></p>
+<code>&lt;img src="https://bshelby88.github.io/raen-live-badges/badges/briefsnap.svg" alt="RAEN briefsnap — $1.00/call on Base"&gt;</code>
+</div>
+<div class="card"><img src="badges/sentry-forge.svg" alt="sentry-forge badge"/>
+<p><b>Collection-notice dispute pack</b></p>
+<p class="price">$5.00 / call &middot; Base USDC &middot; <span class="ok">LIVE</span></p>
+<p><a href="https://sentry-forge-x402.fly.dev/.well-known/x402.json">x402 manifest</a> &middot; <a href="https://sentry-forge-x402.fly.dev/health">health</a></p>
+<code>&lt;img src="https://bshelby88.github.io/raen-live-badges/badges/sentry-forge.svg" alt="RAEN sentry-forge — $5.00/call on Base"&gt;</code>
+</div></div>
+<p>Not affiliated with x402.org. Prices as published in each service's x402 manifest at build time (2026-11-10). Information only — nothing here is financial, legal, or investment advice.</p>
+</body></html>
